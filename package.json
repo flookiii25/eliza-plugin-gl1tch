@@ -1,0 +1,37 @@
+{
+  "name": "eliza-plugin-gl1tch",
+  "version": "1.2.0",
+  "description": "Official ElizaOS Security & Pre-Trade Guard Plugin for Solana & EVM by GL1TCH. Protects AI trading agents from honeypots, rugs, and dangerous smart contracts with pre-trade guardrails, verifiable drand randomness, and KYA trust scoring.",
+  "type": "module",
+  "main": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/toolkit.test.mjs"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza-plugin",
+    "ai16z",
+    "solana",
+    "token-safety",
+    "pre-trade-guard",
+    "honeypot-scanner",
+    "drand",
+    "randomness",
+    "x402",
+    "gl1tch"
+  ],
+  "license": "MIT",
+  "author": "gl1tchbased-pixel",
+  "homepage": "https://gl1tchbased.xyz/agents/docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flookiii25/eliza-plugin-gl1tch.git"
+  }
+}
